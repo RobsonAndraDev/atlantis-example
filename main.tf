@@ -18,3 +18,6 @@ terraform {
 module "eks" {
   source = "./terraform"
 }
+  
+resource "null_resource" "example" {
+}
